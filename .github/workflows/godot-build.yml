@@ -39,6 +39,7 @@ jobs:
           godot-version: ${GODOT_VERSION}
           godot-net: true
           dotnet-version: net9.0
+          version: 'v6.0.0'
           paths: 'res://tests'
           project_dir: './src/'
           upload-report: true
