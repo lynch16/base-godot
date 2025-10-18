@@ -35,6 +35,7 @@ jobs:
           godot-net: true
           dotnet-version: net9.0
           paths: 'res://tests'
+          project_dir: './src/'
           upload-report: true
           publish-report: false
   export-windows:
