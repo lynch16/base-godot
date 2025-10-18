@@ -6,7 +6,7 @@ on: push
 env:
   GODOT_VERSION: 4.5
   EXPORT_NAME: ENTER_GAME_NAME
-  PROJECT_PATH: ./src
+  PROJECT_PATH: ./src/.
 
 jobs:
   build:
@@ -23,6 +23,7 @@ jobs:
         run: |
           apt-get update
           apt-get install -y xvfb
+          cd $PROJECT_PATH
           godot --headless --build-solutions --quit --import --path $PWD
   test:
     name: Test 
