@@ -10,7 +10,7 @@ public class UnitTestExample
     public void TestSaveHighScore()
     {
         int highScore = 101;
-        SaveManager manager = new SaveManager();
+        SaveManager manager = Assertions.AutoFree(new SaveManager());
 
         manager.SaveHighScore(highScore, "test");
 
@@ -21,7 +21,7 @@ public class UnitTestExample
     [RequireGodotRuntime]
     public void CleanUp()
     {
-        SaveManager manager = new SaveManager();
+        SaveManager manager = Assertions.AutoFree(new SaveManager());
         manager.ClearHighScore("test");
     }
 }
