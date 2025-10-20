@@ -21,3 +21,4 @@ reports/
 
 # Remove gdUnit4 to keep build pipeline working until Godot 4.5 is fully supported
 addons/gdUnit4
+gdunit4_testadapter_v5/
