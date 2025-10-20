@@ -46,9 +46,9 @@ Installing GdUnit4 - Unit Testing Framework (new for 4.5).
 
 - The gdunit4-actions tooling does not fully support 4.5. Ensure the NAME.csproj file is updated with the following versions
 ```
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
-    <PackageReference Include="gdUnit4.api" Version="4.3.*" />
-    <PackageReference Include="gdUnit4.test.adapter" Version="2.0.*" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
+    <PackageReference Include="gdUnit4.api" Version="5.0.0" />
+    <PackageReference Include="gdUnit4.test.adapter" Version="3.0.0" />
     <PackageReference Include="gdUnit4.analyzers" Version="1.0.0">
       <PrivateAssets>none</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

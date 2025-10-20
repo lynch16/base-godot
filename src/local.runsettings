@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <GdUnit4>
+    <CaptureStdOut>true</CaptureStdOut>
+    <Parameters>--verbose --headless</Parameters>
+    <DisplayName>FullyQualifiedName</DisplayName>
+    <CompileProcessTimeout>30000</CompileProcessTimeout>
+  </GdUnit4>
+  <RunConfiguration>
+    <EnvironmentVariables>
+      <GODOT_BIN>C:\Program Files (x86)\Godot_DotNet\Godot_v4.5-stable_mono_win64\Godot_v4.5-stable_mono_win64.exe</GODOT_BIN>
+    </EnvironmentVariables>
+  </RunConfiguration>
+</RunSettings>
